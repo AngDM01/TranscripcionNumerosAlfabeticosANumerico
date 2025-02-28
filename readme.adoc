@@ -1,0 +1,25 @@
+= Transcriptor de números escritos alfabéticamente a su valor numeral
+
+Angel Jesús Mena Coudin | 2025
+
+== Descripción
+El programa debe recibir desde consola un número escrito alfabéticamente, por ejemplo; `siete`. Este retornará el valor númerico esperado, en este ejemplo; `7`.
+
+Así con cualquier número.
+
+== Notas
+El programa está escrito en python utilizando la versión 3.12.5 de este.
+
+Actualmente el programa solo ha sido probado en Windows 10, usando el editor de texto VS code.
+
+Actualmente solo transcribe hasta millones, no hay transcripción para billones o superiores.
+
+== Manual de uso
+El programa se utiliza desde consola
+
+=== Ejecutar
+Para ejecutar el programa basta con especificar al interprete de python la ruta al archivo main. Ejemplo:
+
+`python /documentos/programa/src/main.py`.
+
+Esto varia según donde estes ubicado en la ruta.
