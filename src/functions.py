@@ -23,7 +23,6 @@ def convertir_a_numero(texto):
         continue
 
     if palabra in mapeo:
-      print("palabra:", palabra)
       # Si es mil, multiplicar antes de sumar
       if palabra == "mil":
         resultado = resultado + (subresultado * mapeo[palabra])
@@ -36,6 +35,5 @@ def convertir_a_numero(texto):
         subresultado += mapeo[palabra]
 
   resultado += subresultado  # Al final sumamos cualquier subresultado restante
-  print(resultado)
 
   return resultado
