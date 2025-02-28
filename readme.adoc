@@ -7,12 +7,16 @@ El programa debe recibir desde consola un número escrito alfabéticamente, por 
 
 Así con cualquier número.
 
-== Notas
-El programa está escrito en python utilizando la versión 3.12.5 de este.
+== Notas de la versión actual
+* El programa está escrito en python utilizando la versión 3.12.5 de este.
 
-Actualmente el programa solo ha sido probado en Windows 10, usando el editor de texto VS code.
+* Actualmente el programa solo ha sido probado en Windows 10, usando el editor de texto VS code.
 
-Actualmente solo transcribe hasta millones, no hay transcripción para billones o superiores.
+* Actualmente solo transcribe hasta millones, no hay transcripción para billones o superiores.
+
+* Es importante una correcta sintáxis de los números para que el resultado sea el deseado. (Poner correctamente los miles y millones).
+
+* Los valores desde el *veintiuno y veintinueve*, por cuestiones de generalización se escriben con separación, ejemplo: `veinti uno`
 
 == Manual de uso
 El programa se utiliza desde consola
@@ -23,3 +27,17 @@ Para ejecutar el programa basta con especificar al interprete de python la ruta 
 `python /documentos/programa/src/main.py`.
 
 Esto varia según donde estes ubicado en la ruta.
+
+=== Ejemplo de uso
+*Desde la consola de mi computador personal:*
+****
+C:\Users\USUARIO\Documents\Angel\Otros\Programas\TranscripcionNumerosAlfabeticosANumerico>python src/main.py
+
+Ingrese un número alfabéticamente, ejemplo: siete
+
+Doscientos millones trescientos cuarenta mil setecientos ochenta y dos
+
+Entrada: doscientos millones trescientos cuarenta mil setecientos ochenta y dos
+
+Salida: 200340782 
+****
